@@ -1,0 +1,18 @@
+header {
+	text-align: center;
+}
+body {
+	text-align: center;
+}
+li {
+	margin: auto;
+	width: 200px;
+}
+.contact img {
+	border-radius: 50%;
+	border:none;
+}
+.contact img {
+	width: 100px;
+	margin: 10px;
+}
