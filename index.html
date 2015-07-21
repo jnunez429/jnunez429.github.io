@@ -3,6 +3,8 @@
 	<head>
 		<title>My Page</title>
 		<link href="styles.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="path/to/instafeed.min.js">
+		</script>
 	</head>
 	<body>
 		<header>
@@ -31,5 +33,14 @@
 			<a href="http://linkedin.com/"><img src="images/linkedin.png"></a>
 			<a href="mailto:blanellesworld@gmail.com"><img src="images/email.png"></a>
 		</section>
+		<div id="instafeed"></div>
+		<script type="text/javascript">
+			var userFeed = new Instafeed({
+				get: 'user',
+				userID: 636646814,
+				accessToken: '636646814.467ede5.fa8476d353f640c0b37eae7895d1592b'
+			});
+			userFeed.run();
+		</script>
 	</body>
 </html>
