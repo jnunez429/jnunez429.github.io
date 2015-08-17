@@ -1,46 +1,43 @@
 <DOCTYPE html>
 <html>
 	<head>
-		<title>My Page</title>
+		<title>Janelle Nunez</title>
 		<link href="styles.css" rel="stylesheet" type="text/css"/>
-		<script type="text/javascript" src="js/instafeed.min.js">
-		</script>
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<header>
-			<img src="images/female.jpg" title="Female"/>
+		<header class="stacked">
+			<a href="http://s119.photobucket.com/user/chadxlover429/media/mypage-img.png.html" target="_blank"><img src="http://i119.photobucket.com/albums/o158/chadxlover429/mypage-img.png" border="0" alt=" photo mypage-img.png"/></a>
 			<h1>Janelle Nunez</h1>
-			<h2>Student, Pop Culture Junkie, Traveler</h2>
 		</header>
-		<section id="about">
-			<h2>About Me</h2>
-			<p></p>
+		<section id="subheader" class="stacked">
+			
+			<h2>Writer, Coder, Pop Culture Junkie, and Traveler</h2>
 		</section>
-		<section class="links">
+		<section id="about" class="stacked">
+			<h2>About Me</h2>
+			<p>Welcome to my site. I am a student currently attempting to learn coding</p>
+		</section>
+		<section class="links stacked">
 			<h2>Websites I visit a lot</h2>
-				<p><a href="https://www.pinterest.com/">Pinterest</a></p>
-				<p><a href="https://www.google.com/">Google</a></li>
-				<p><a href="http://perezhilton.com/">Perez Hilton</a></p>
+				<ul class="websites">
+					<li><a href="https://www.pinterest.com/">Pinterest</a></li>
+					<li><a href="https://www.google.com/">Google</a></li>
+					<li><a href="http://perezhilton.com/">Perez Hilton</a></li>
+				</ul>
 			<h2>My Hobbies</h2>
 				<p>Reading books</p>
 				<p>Watching Netflix</p>
 				<p>Going to concerts</p>
 		</section>
-		<section class="contact padded">	
+		<section class="contact stacked">	
 		<h2>Contact Me</h2>
 			<a href="http://twitter.com/"><img src="images/twitter.png"></a>
 			<a href="http://facebook.com/"><img src="images/facebook.png"></a>
 			<a href="http://linkedin.com/"><img src="images/linkedin.png"></a>
 			<a href="mailto:blanellesworld@gmail.com"><img src="images/email.png"></a>
 		</section>
-		<div id="instafeed"></div>
-		<script type="text/javascript">
-			var userFeed = new Instafeed({
-				get: 'blanellesworld',
-				userID: 636646814,
-				accessToken: '636646814.467ede5.fa8476d353f640c0b37eae7895d1592b'
-			});
-			userFeed.run();
+		
 		</script>
 	</body>
 </html>
